@@ -16,10 +16,10 @@ alex_text = "Alex, unser Nachhaltigkeitsexperte, bringt eine tiefe Verpflichtung
 simon_text = "Simon, unser Technologieexperte, ist dafür verantwortlich, unsere Ideen in die digitale Welt zu übersetzen. Seine Fähigkeiten in Webentwicklung und Technologie tragen dazu bei, dass unsere Botschaft online gehört wird. Mit einem Auge für Details und Effizienz bringt er unsere Webseite zum Strahlen."
 
 team_members = [
-    {'name': 'Luca', 'image': 'luca.jpg', 'introduction': luca_text},
-    {'name': 'Nico', 'image': 'nico.jpg', 'introduction': nico_text},
-    {'name': 'Alex', 'image': 'alex.jpg', 'introduction': alex_text},
-    {'name': 'Simon', 'image': 'simon.jpg', 'introduction': simon_text},
+    {'name': 'Luca', 'image': 'luca.jpeg', 'introduction': luca_text},
+    {'name': 'Nico', 'image': 'nico.jpeg', 'introduction': nico_text},
+    {'name': 'Alex', 'image': 'alex.jpeg', 'introduction': alex_text},
+    {'name': 'Simon', 'image': 'simon.jpeg', 'introduction': simon_text},
 ]
 
 # Informationen über Algen

@@ -41,8 +41,8 @@ Algen sind vielseitige Organismen, die in verschiedenen Bereichen Anwendung find
         <ul>
             {% for member in team %}
                 <li>
-                    <img src="{{ url_for('static', filename='images/team/' + member['image']) }}" alt="{{ member['name'] }}">
                     <p>{{ member['name'] }}</p>
+                    <img src="{{ url_for('static', filename='images/team/' + member['image']) }}" alt="{{ member['name'] }}">
                     <p>{{ member['introduction'] }}</p>
                 </li>
             {% endfor %}
