@@ -17,22 +17,34 @@ header {
     font-size: 20px; 
 }
 header h1 {
-    font-size: 50px; /* Adjust the font size for h1 */
+    font-size: 60px; /* Adjust the font size for h1 */
 }
 
 header p {
-    font-size: 20px; /* Adjust the font size for p */
+    font-size: 25px; /* Adjust the font size for p */
 }
 
-section {
+.description {
 
     background-size: cover;
     padding: 40px;
     margin: 20px 0;
     color: white;
     text-align: center;
+}
 
+.description h2 {
+    font-size: 40px; /* Adjust the font size for h1 */
+}
 
+.description p {
+    font-size: 15px; /* Adjust the font size for p */
+}
+
+.team-section h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
 }
 
 .team-section ul {
