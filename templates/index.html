@@ -14,7 +14,27 @@
     </header>
     <section>
         <h2>Unsere Leidenschaft</h2>
-        <p>Wir sind leidenschaftlich daran interessiert, den CO2-Fußabdruck von Lebensmitteln zu reduzieren und nachhaltige sowie kostengünstige Nahrung für jeden zugänglich zu machen. Algen sind der Schlüssel zu einer nachhaltigen Ernährung. Sie sind proteinreich und gelten als Superfood der Zukunft.</p>
+        <p>Wir sind leidenschaftlich daran interessiert, den CO2-Fußabdruck von Lebensmitteln zu reduzieren und nachhaltige sowie kostengünstige Nahrung für jeden zugänglich zu machen. Algen sind der Schlüssel zu einer nachhaltigen Ernährung. Sie sind proteinreich und gelten als Superfood der Zukunft. </p>
+
+        <h2>Unsere Mission</h2>
+Algen sind vielseitige Organismen, die in verschiedenen Bereichen Anwendung finden. Sie spielen eine wichtige Rolle in der Natur und werden in verschiedenen Industriezweigen genutzt. Aber was machen Algen genau, wofür sind sie gut, woher kommen sie, und in welchen Produkten können sie verwendet werden?
+
+        <h3>Was machen Algen?</h3>
+        <p>Algen sind wichtige Organismen, die in verschieden
+            Algen sind photosynthetische Organismen, die in der Regel in Wasser leben. Sie produzieren Sauerstoff und dienen als Nahrungsgrundlage für viele Meereslebewesen. Einige Algenarten können sich auch an Land ansiedeln.</p>
+
+      <h3>Wofür sind Algen gut?</h3>
+          <p>  Algen haben eine beeindruckende Bandbreite von Anwendungen. Sie können in der Lebensmittelindustrie, Pharmazie, Kosmetik, Landwirtschaft und sogar in der Energieerzeugung eingesetzt werden. Ihre Nährstoffzusammensetzung macht sie zu einer gesunden Quelle von Proteinen, Vitaminen und Mineralstoffen.</p>
+
+      <h3>Woher kommen Algen?</h3>
+      <p>Algen kommen in verschiedenen Gewässern vor, von Ozeanen über Seen bis hin zu Flüssen. Einige Algenarten können auch in extremen Umgebungen wie heißen Quellen oder eiskalten Regionen gedeihen. Ihre Vielfalt spiegelt sich in den unterschiedlichen Lebensräumen wider.</p>
+
+            <h3>In welchen Produkten können Algen verwendet werden? </h3>
+          <p>  Algen werden in einer Vielzahl von Produkten eingesetzt, darunter Lebensmittel, Nahrungsergänzungsmittel, Kosmetika, Düngemittel und sogar in einigen erneuerbaren Energietechnologien. Algenextrakte werden häufig für ihre gesundheitlichen Vorteile genutzt und können in Form von Algenöl, Algenpulver oder Algenpräparaten gefunden werden.
+
+        Die Nutzung von Algen in verschiedenen Branchen zeigt ihr Potenzial als nachhaltige Ressource und ihre wichtige Rolle für eine zukünftige, umweltfreundliche Entwicklung.
+        
+        </p>
     </section>
     <section class="team-section">
         <h2>Unser Team</h2>
@@ -23,6 +43,7 @@
                 <li>
                     <img src="{{ url_for('static', filename='images/team/' + member['image']) }}" alt="{{ member['name'] }}">
                     <p>{{ member['name'] }}</p>
+                    <p>{{ member['introduction'] }}</p>
                 </li>
             {% endfor %}
         </ul>

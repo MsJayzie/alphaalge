@@ -1,13 +1,15 @@
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-image: url('/static/images/bg3.jpg');
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5); 
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-image: url('/static/images/alge2.jpg');
+
     background-size: cover;
     color: white;
     padding: 50px;
@@ -15,10 +17,14 @@ header {
 }
 
 section {
-    background-image: url('/static/images/alge3.jpg');
+
     background-size: cover;
     padding: 40px;
     margin: 20px 0;
+    color: white;
+    text-align: center;
+
+
 }
 
 .team-section ul {
@@ -26,6 +32,8 @@ section {
     margin: 0;
     padding: 0;
     text-align: center; /* Center the list items */
+    color: white;
+
 }
 
 .team-section li {
