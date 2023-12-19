@@ -1,0 +1,54 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('/static/images/alge2.jpg');
+    background-size: cover;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+section {
+    background-image: url('/static/images/alge3.jpg');
+    background-size: cover;
+    padding: 40px;
+    margin: 20px 0;
+}
+
+.team-section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the list items */
+}
+
+.team-section li {
+    display: inline-block; /* Display list items horizontally */
+    margin: 0 10px; /* Adjust the margin between list items */
+}
+
+.team-section img {
+    max-width: 100%; /* Ensure images don't exceed their container */
+    height: 100px; /* Maintain aspect ratio */
+    border-radius: 50%; /* Optional: Add rounded corners to the images */
+    margin-bottom: 50px; /* Optional: Add space between image and name */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: none; /* Initially hide the footer */
+}
+
+

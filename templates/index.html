@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlphaAlge - Startseite</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Willkommen bei AlphaAlge</h1>
+        <p>Das Zeitalter der Alge hat begonnen!</p>
+    </header>
+    <section>
+        <h2>Unsere Leidenschaft</h2>
+        <p>Wir sind leidenschaftlich daran interessiert, den CO2-Fußabdruck von Lebensmitteln zu reduzieren und nachhaltige sowie kostengünstige Nahrung für jeden zugänglich zu machen. Algen sind der Schlüssel zu einer nachhaltigen Ernährung. Sie sind proteinreich und gelten als Superfood der Zukunft.</p>
+    </section>
+    <section class="team-section">
+        <h2>Unser Team</h2>
+        <ul>
+            {% for member in team %}
+                <li>
+                    <img src="{{ url_for('static', filename='images/team/' + member['image']) }}" alt="{{ member['name'] }}">
+                    <p>{{ member['name'] }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+        <p><a href="/algen">Erfahre mehr über Algen</a></p>
+    </section>
+    <footer>
+        &copy; 2023 AlphaAlge. Alle Rechte vorbehalten.
+    </footer>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
