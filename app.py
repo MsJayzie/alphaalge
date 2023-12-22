@@ -19,7 +19,7 @@ team_members = [
     {'name': 'Luca', 'image': 'luca.jpeg', 'introduction': luca_text},
     {'name': 'Nico', 'image': 'nico.jpeg', 'introduction': nico_text},
     {'name': 'Alex', 'image': 'alex.jpeg', 'introduction': alex_text},
-    {'name': 'Simon', 'image': 'simon.jpeg', 'introduction': simon_text},
+    {'name': 'Simon', 'image': 'simon3.jpeg', 'introduction': simon_text},
 ]
 
 # Informationen über Algen

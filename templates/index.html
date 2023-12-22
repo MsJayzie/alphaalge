@@ -9,8 +9,9 @@
 </head>
 <body>
     <header>
-        <h1>Willkommen bei AlphaAlge</h1>
-        <p>Tauche ein in das Alogzän – Das Zeitalter der Alge.</p>
+      <h2>Willkommen bei</h2>
+      <h1>AlphaAlge</h1>
+        <p>Tauche ein in das Alogzän. <br> --- <br>Das Zeitalter der Alge.</p>
     </header>
     <section class="description">
         <h2>Unsere Mission</h2>
@@ -38,8 +39,8 @@
             {% for member in team %}
                 <li>
                     <h3>{{ member['name'] }}</h3>
-                    <img src="{{ url_for('static', filename='images/team/' + member['image']) }}" alt="{{ member['name'] }}">
                     <p>{{ member['introduction'] }}</p>
+                    <img src="{{ url_for('static', filename='images/team/' + member['image']) }}" alt="{{ member['name'] }}">
                 </li>
             {% endfor %}
         </ul>
